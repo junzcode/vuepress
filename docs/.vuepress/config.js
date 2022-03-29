@@ -47,15 +47,14 @@ module.exports = {
         link: 'https://v1.vuepress.vuejs.org'
       }
     ],
-    sidebar: {
-      '/intro.md/': [
-        {
-          title: 'Category',
-          collapsable: true,
-          children: ['/category/start']
-        }
-      ],
-    }
+    sidebar: [
+      '/intro.md',
+      {
+        title: 'Category',
+        collapsable: true,
+        children: ['/category/start']
+      }
+    ]
   },
 
   /**
